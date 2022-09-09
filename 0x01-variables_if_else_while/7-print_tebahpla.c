@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Return 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -15,5 +15,7 @@ for (; x >= 'a'; x--)
 
 putchar (x);
 putchar ('\n');
+
 return (0);
+
 }			
