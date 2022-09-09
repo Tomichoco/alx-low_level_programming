@@ -7,11 +7,12 @@
 
 int main(void)
 {
-char new_alphabet;
-	for (new_alphabet = 122; new_alphabet >= 97; new_alphabet--)
-	{ 
-		putchar(new_alphabet);
-	}
-	putchar('\n');
-	return (0);
+
+char x = 'z';
+
+for (; x >= 'a'; x--)
+
+putchar(x);
+putchar('\n');
+return (0);
 }			
