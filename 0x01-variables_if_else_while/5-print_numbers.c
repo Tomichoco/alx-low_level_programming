@@ -7,11 +7,14 @@
  */
 
 int main(void)
-{
-int i;
-for (i = '0'; i < 10; i++)
 
-printf("%d", i);
+{
+
+int i = 0;
+
+while (i < 10)
+
+printf("%d", i++);
 
 printf("\n");
 

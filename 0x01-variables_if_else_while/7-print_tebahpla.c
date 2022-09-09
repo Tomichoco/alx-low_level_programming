@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - Entry point
  *
@@ -12,7 +13,7 @@ char x = 'z';
 
 for (; x >= 'a'; x--)
 
-putchar(x);
-putchar('\n');
+putchar (x);
+putchar ('\n');
 return (0);
 }			
