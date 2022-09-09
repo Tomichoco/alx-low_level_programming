@@ -1,23 +1,23 @@
-#include <stdio>
+#include <stdio.h>
+
 /**
- * main - Entry point
+ * main- Print alphabet except q - e
  *
  * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-int alphabet;
+int letter;
 
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+for (letter = 'a'; letter <= 'z'; letter++)
 {
-	
-if (alphabet == 'q' || alphabet == 'e')
-letter++;
 
-putchar (alphabet);
+	if (letter == 'q' || letter == 'e')
+		letter++;
+
+	putchar (letter);
 }
 putchar ('\n');
-
 return (0);
 }
